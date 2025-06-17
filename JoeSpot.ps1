@@ -243,7 +243,7 @@ try
   $is64Bit = $bytes[$peHeader + 4] -eq 0x64
 
   if ($is64Bit) {
-    $uri = 'https://github.com/ATopHat/JoeSpot/blob/main/JoeSpot.zip'
+    $uri = 'https://github.com/ATopHat/JoeSpot/archive/refs/tags/JoeSpot.zip'
   } else {
     Write-Host 'At the moment, the crack does NOT work on a x86 architecture. Contact seller...'
     $uri = ''
