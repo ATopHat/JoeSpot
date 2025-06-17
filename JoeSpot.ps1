@@ -245,7 +245,7 @@ try
   if ($is64Bit) {
     $uri = 'https://github.com/ATopHat/JoeSpot/blob/main/JoeSpot.zip'
   } else {
-    Write-Host 'At the moment, the crack does NOT work on a x86 architecture. Contact seller..."
+    Write-Host 'At the moment, the crack does NOT work on a x86 architecture. Contact seller...'
     $uri = ''
     exit
   }
