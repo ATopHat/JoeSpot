@@ -273,5 +273,6 @@ Remove-Item -LiteralPath $tempDirectory -Recurse
 
 Write-Host 'JoeNigga Patching Complete, starting Spotify...'
 
+
 Start-Process -WorkingDirectory $spotifyDirectory -FilePath $spotifyExecutable
 Write-Host 'Done.'
